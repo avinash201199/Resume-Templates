@@ -8,4 +8,4 @@ You can contribute in many ways in this repo :
 
 Note- create an issue first to contribute.
 
-For any doubt connect- https://www.linkedin.com/in/avinash-singh-071b79175/
+For any doubt [Connect Here](https://www.linkedin.com/in/avinash-singh-071b79175/)
