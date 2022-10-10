@@ -11,7 +11,7 @@ A great resume:
 
 Here are some good resume templates <br>
 
-1.[Avinash Singh](https://drive.google.com/file/d/1i6VqeJlpyN4nDZCsO4gNhm1M6DUMcRjL/view?usp=sharing)
+1. [Avinash Singh](https://drive.google.com/file/d/1i6VqeJlpyN4nDZCsO4gNhm1M6DUMcRjL/view?usp=sharing)
 
 
 
