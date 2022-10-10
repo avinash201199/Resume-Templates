@@ -9,6 +9,8 @@ A great resume:
 - Shows how you’re a match for a position or project
 - And most importantly, gets you a job interview!
 
+Check [Contributing.md](https://github.com/avinash201199/Resume-Templates/blob/main/CONTRIBUTING.md) file to contribute.
+
 Here are some good resume templates <br>
 
 1. [Avinash Singh](https://drive.google.com/file/d/1i6VqeJlpyN4nDZCsO4gNhm1M6DUMcRjL/view?usp=sharing)
