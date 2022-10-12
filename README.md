@@ -13,7 +13,9 @@ Check [Contributing.md](https://github.com/avinash201199/Resume-Templates/blob/m
 
 Here are some good resume templates <br>
 
-1. [Avinash Singh](https://drive.google.com/file/d/1i6VqeJlpyN4nDZCsO4gNhm1M6DUMcRjL/view?usp=sharing)
+1.[Avinash Singh](https://drive.google.com/file/d/1i6VqeJlpyN4nDZCsO4gNhm1M6DUMcRjL/view?usp=sharing)
 
 2.[Komal Kumari](https://drive.google.com/file/d/1Krzx0oEX9EOQ65l8UuCYvsD3Bub91ZUn/view?usp=sharing)
+
+Note- Do not use anyone's contact number from the resume templates.
 
