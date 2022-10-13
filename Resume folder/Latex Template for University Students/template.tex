@@ -1,0 +1,290 @@
+%-------------------------
+% Resume in Latex
+% Author : Aaryan Arora
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,10pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome}
+\usepackage[most]{tcolorbox}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{palatino}
+\usepackage{tabularx}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,   
+    urlcolor=blue,
+    pdftitle={Aaryan Arora' Resume},
+    pdfpagemode=FullScreen,
+    }
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.82}
+\textheight=9in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.99\textwidth}{\textbf{#1
+\vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-4pt}}
+
+
+% Set the margins
+\geometry{left=0.65cm, top=0.5cm, right=0.65cm, bottom=0.5cm}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item[]
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \hspace{-3mm}{#1}:\hspace{1mm} & \hspace*{0pt}\hfill{\footnotesize{ #3}} \vspace{-0.5mm}\\ \hspace{-2.9mm}#2 
+    \end{tabular*}
+    \vspace{0mm}
+}
+
+\newcommand{\resumeExp}[4]{
+\vspace{0mm}\item[]
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \hspace{-4.4mm} \small\textbf{#1} & {\footnotesize{#3}}\vspace{-1.2mm}\\
+        \hspace{-4.3mm} \footnotesize{\text{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-6.1mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0mm}\item[]
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \hspace{-4.4mm} \small\textbf{#1} & {\footnotesize{#3}}\vspace{-1mm}\\
+        \hspace{-4.3mm} \footnotesize{\text{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-6.5mm}
+}
+
+\newcommand{\resumeEdu}[4]{
+\vspace{0mm}\item[]
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \hspace{-4.3mm} \small\textbf{#1} & \footnotesize{#3}\vspace{-1mm} \\
+        \hspace{-4.3mm} \footnotesize{#2} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-3.2mm}
+}
+
+\newcommand{\resumeAchieve}[3]
+{
+\hspace{-3.1mm}\textbf{ #1} & {#2} & \hspace{3mm}\footnotesize{#3}
+\vspace{0mm}\\
+}
+
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm,itemsep=-2.5mm]}
+
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-1.5mm}}
+
+\renewcommand{\arraystretch}{1}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+
+
+%----------HEADING-----------------
+% you can add college logo here
+\begin{table}
+    \begin{minipage}{0.15\linewidth}
+        \centering
+        \includegraphics[height =0.7in]{}
+    \end{minipage}
+    \begin{minipage}{0.65\linewidth}
+        %\centering
+        \setlength{\tabcolsep}{50pt}
+        \def\arraystretch{1.15}
+        \begin{tabular}{ll}
+            \textbf{\Large{Full Name}}  &  {University Roll No.} \\
+            \textbf{Specialisation} & \textbf{Course} \\
+            University &  {\href{tel:91 xxxx}{+91 xxxx}}\\
+            Email:  & \href{}{GitHub} | \href{}{LinkedIn} | \href{}{Website} \\
+        \end{tabular} \\ [-0.5cm]
+    \end{minipage}\hfill
+\end{table} 
+
+\setlength{\tabcolsep}{20 pt}
+\noindent
+\begin{table}
+\centering
+\noindent
+\resheading{\textbf{EDUCATION}}\\[+0.1cm]
+\begin{tabular}{llll}
+\toprule
+\textbf{Examination}    & \textbf{University}    & \textbf{Year}     & \textbf{CGPA/\%} \\ 
+\toprule
+UG Course \\ 
+AISSCE (Class XII) \\ 
+AISCE (Class X) \\ 
+\bottomrule \\[-1.35cm]
+\end{tabular}
+\end{table}
+% \fi
+
+\noindent \resheading{\textbf{EXPERIENCE \& ORGANISATIONS}}\\[-0.2cm]
+\begin{itemize}[noitemsep,nolistsep]
+\item \textbf{Role} \hfill \emph{(2022)}\\
+    % \begin{itemize}[noitemsep,nolistsep]
+ {Points}\\[-0.4cm]
+  \begin{itemize}[noitemsep,nolistsep]
+  \end{itemize}
+ {Points}\\[-0.4cm]
+    \begin{itemize}[noitemsep,nolistsep]
+    \end{itemize} 
+ {Points}\\[-0.35cm]
+    \begin{itemize}[noitemsep,nolistsep]
+    \end{itemize} 
+    % \end{itemize}
+    
+\item \textbf{Role} \hfill \emph{(2021)} \\ 
+        % \begin{itemize}[noitemsep,nolistsep]
+ {Points}\\[-0.4cm]
+  \begin{itemize}[noitemsep,nolistsep]
+  \end{itemize}
+{Points}\\[-0.4cm]
+    \begin{itemize}[noitemsep,nolistsep]
+    \end{itemize} 
+ {Points}\\[-0.35cm]
+    \begin{itemize}[noitemsep,nolistsep]
+    \end{itemize} 
+    % \end{itemize}
+    % \end{itemize}
+
+\end{itemize}
+
+\noindent
+\resheading{\textbf{ACADEMIC PROJECTS} }\\[-0.3cm]
+\begin{itemize}[noitemsep,nolistsep]
+\item \textbf{Project 1} \href{}{(Link)} \\
+{Brief}
+\begin{itemize}[noitemsep,nolistsep]
+    \item Points(Tell about the impact it made and what you did)
+    \item Points
+    \item Points
+    \item \textbf{Used tools:} 
+\end{itemize}
+
+\item \textbf{Project 2} \href{}{(Link)} \\
+{Brief}
+\begin{itemize}[noitemsep,nolistsep]
+    \item Points(Use numbers and technologies used)
+    \item Points(show results)
+    \item \textbf{Used tools:} 
+\end{itemize}
+
+\end{itemize}
+
+\noindent
+\resheading{\textbf{ACHIEVEMENTS \& AWARDS}}\\[-0.4cm]
+\begin{itemize}
+\setlength\itemsep{-0.4em}
+
+\item Points with details(Use numbers, quantifiable facts & achievements related to the role)
+\item Points
+\item Points
+\item Points
+\item Points
+\item Points
+\item Points
+\item Points
+\item Points
+\item Points
+\item Points
+\item Points
+
+\end{itemize}
+
+\noindent
+\resheading{\textbf{EXTRA-CURRICULAR ACTIVITIES}}\\[-0.4cm]
+\begin{itemize}
+\setlength\itemsep{-0.4em}
+\item Points(Showing various soft skills like team work, public speaking etc)
+\item Points
+\item Points
+\item Points
+\item Points
+
+\end{itemize}
+
+\noindent
+\resheading{\textbf{TECHNICAL SKILLS}}\\[-0.4cm]
+ \begin{itemize}
+  \item \textbf{Languages / Tools}: \\[-0.6cm]
+  
+  \item \textbf{Certifications}: \\[-0.5cm]
+
+  \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
+
