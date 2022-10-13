@@ -17,3 +17,4 @@ Here are some good resume templates <br>
 
 2.[Komal Kumari](https://drive.google.com/file/d/1Krzx0oEX9EOQ65l8UuCYvsD3Bub91ZUn/view?usp=sharing)
 
+3.[Khushi Nikam](https://drive.google.com/file/d/1-10TmFaJfvMMAkX6U4AwbWcX4mI8dvX1/view?usp=drivesdk)
