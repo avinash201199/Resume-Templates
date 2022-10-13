@@ -21,3 +21,4 @@ Here are some good resume templates <br>
 
 Note- Do not use anyone's contact number from the resume templates.
 
+3.[Khushi Nikam](https://drive.google.com/file/d/1-10TmFaJfvMMAkX6U4AwbWcX4mI8dvX1/view?usp=drivesdk)
