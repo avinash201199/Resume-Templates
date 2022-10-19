@@ -1,0 +1,264 @@
+%-------------------------
+% Resume in Latex
+% Author : Tejas Khairnar
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,12pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome}
+\usepackage[most]{tcolorbox}
+
+
+% Set the margins
+\geometry{left=0.85cm, top=0.8cm, right=0.85cm, bottom=0.2cm}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item[]
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \hspace{-3mm}{#1}:\hspace{1mm} & \hspace*{0pt}\hfill{\footnotesize{ #3}} \vspace{-0.5mm}\\ \hspace{-2.9mm}#2 
+    \end{tabular*}
+    \vspace{0mm}
+}
+
+\newcommand{\resumeExp}[4]{
+\vspace{0mm}\item[]
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \hspace{-4.4mm} \small\textbf{#1} & {\footnotesize{#3}}\vspace{-1.2mm}\\
+        \hspace{-4.3mm} \footnotesize{\text{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-6.1mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0mm}\item[]
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \hspace{-4.4mm} \small\textbf{#1} & {\footnotesize{#3}}\vspace{-1mm}\\
+        \hspace{-4.3mm} \footnotesize{\text{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-6.5mm}
+}
+
+\newcommand{\resumeEdu}[4]{
+\vspace{0mm}\item[]
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \hspace{-4.3mm} \small\textbf{#1} & \footnotesize{#3}\vspace{-1mm} \\
+        \hspace{-4.3mm} \footnotesize{#2} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-3.2mm}
+}
+
+\newcommand{\resumeAchieve}[3]
+{
+\hspace{-3.1mm}\textbf{ #1} & {#2} & \hspace{3mm}\footnotesize{#3}
+\vspace{0mm}\\
+}
+
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm,itemsep=-2.5mm]}
+
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-1.5mm}}
+
+\renewcommand{\arraystretch}{1}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%
+
+\newcommand{\name}{Kumar Rahul} % Your Name
+\newcommand{\course}{B.Tech -Mechanical Engineering} % Your Course
+\newcommand{\roll}{19ME8105} % Your Roll No.
+\newcommand{\phone}{9928990795} % Your Phone Number
+\newcommand{\emaila}{kumarrahul.nit23@gmail.com}
+\newcommand{\github}{iGotABadIdea} %Github
+\newcommand{\website}{https://igotabadidea.github.io/} %Website
+\newcommand{\linkedin}{igotabadidea/} %linkedin
+
+
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+
+
+%----------HEADING-----------------
+\begin{center}
+    \LARGE{\textbf{\name}}
+\end{center}
+\vspace{-6.5mm}
+\begin{center}
+    \small{\href{https://github.com/\github}{\faGithub \hspace{0.2mm} kumarrahul} |  \href{https://www.linkedin.com/in/\linkedin/}{\faLinkedinSquare \hspace{0.2mm} kumarrahul} | \href{mailto:\emaila}{\faSend \hspace{0.2mm} \emaila} | \faPhone \hspace{0.2mm} +91-\phone }
+\end{center}
+\vspace{-3mm}
+
+%-----------EDUCATION-----------------
+
+\vspace{-2.5mm}
+\section{Education}
+
+\resumeSubHeadingListStart
+\resumeEdu
+{National Institute of Technology Durgapur, India} 
+{Bachelors of Technology in Mechanical Engineering} 
+{Aug 2019 - June 2023} %Event Dates
+{CGPA: 7.78/10.0} %Website
+\resumeSubHeadingListEnd
+\vspace{-3.5mm}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeExp
+{The STEMM Factor - Tech Team}
+{Front-End Developer, Internship}
+{Feb 2022 - Present}
+{New Delhi, India}
+\resumeItemListStart
+\item[$\bullet$] Designed Engineered the frontend of the official website using ReactJS, Redux and other libraries.
+\item[$\bullet$] Led the transition to a paperless practice by implementing an electronic blogging system which increased efficiency and overall performance.
+.
+\item[$\bullet$] Responsible for software maintenance across the codebase. Required wide understanding of the internals of the software and systems..
+\resumeItemListEnd
+
+
+\resumeExp
+{National Hydroelectric Power Corporation Ltd.}
+{Trainee, Vocational Training}
+{May 2022 - June 2022}
+{Kalijhora (WB), India}
+\resumeItemListStart
+\item[$\bullet$] Assisted as an Industrial Trainee at NHPC Ltd. TLDP-4, Kalijhora, West Bengal.
+\item[$\bullet$] Consolidated knowledge in the domain of Hydro Mechanics, Power Generation and Electric grid.
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-5.5mm}
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProject
+{Track smart | Attendance Marker}
+{A attendance marking system} %Project Name, Location Name
+{May 2022 - June 2022} %Event Dates
+{\href{https://github.com/iGotABadIdea/attendencetracker}{git.io/Track-Smart}} 
+\resumeItemListStart
+\item[$\bullet$] A smart attendance marking system designed to track the attendance by scanning a QR code and marking the attendance via biometric scan.
+\item[$\bullet$] Developed using ReactJS  in Front-end, styled using css, Back-end technologies include Django. Frontend and Backend deployed on Cloudflare and Heroku respectively.
+\item[$\bullet$] Key features include Biometric user Authentication and QR code scanning  using passage.id,  multiple page routing and database is seeded in PostgreSQL. 
+\resumeItemListEnd
+
+
+\resumeProject
+{The Voting Game | Decentralised Voting Game} %Project Name
+{DecentralHacks 2021} %Project Name, Location Name
+{Sep 2021 - Oct 2021} %Event Dates
+{\href{https://github.com/iGotABadIdea/The-Voting-Game-dapp}{git.io/Voting-Game}} %Website
+\resumeItemListStart
+\item[$\bullet$] Designed on NEAR, this dapp provides a client interface to party game that uncovers the hilarious truth behind your friendships and store their records permanently on the blockchain and retrieve it whenever needed.
+\item[$\bullet$] Contributed on the front-end part with API integration, routing, styling and custom hooks with automated workflow.
+\resumeItemListEnd
+
+\resumeProject
+{Shopping Store} %Project Name
+{A fully functional E-commerce Website} %Project Name, Location Name
+{Dec 2021 - Jan 2022} %Event Dates
+{\href{https://github.com/iGotABadIdea/AmazonV2}{git.io/shopping-store}} %Website
+\resumeItemListStart
+\item[$\bullet$] Developed using NextJS, ReactJS and Redux in Front-end, styled using styled components, Back-end technologies include firebase and deployed on vercel. 
+
+\item[$\bullet$] Key features include user Authentication, multiple page routing, add to cart features, payment option using stripe checkout and database is seeded in firestore.
+
+\item[$\bullet$] Advance Features include protected routing, custom hooks and automated workflow during deployment.
+\resumeItemListEnd
+
+
+\resumeProject
+{}{}{}{}
+\vspace{-3.5mm}
+
+\resumeSubHeadingListEnd
+
+\vspace{-5.5mm}
+
+\section{Achievements}
+\vspace{0.2mm}
+\small{\begin{tabular*}{\textwidth}[t]{p{0.22\textwidth} p{0.68\textwidth}@{\extracolsep{\fill}}r}
+
+
+\resumeAchieve{Finalist}{Smart India Hackathon}{2022}
+
+\resumeAchieve{Finalist}{Publicis Sapient Jumpstart}{2022}
+
+\resumeAchieve{Global Rank 108}{Secured global rank 108 among 50,000 participant in CodeAgoda}{2022}
+
+\end{tabular*}}
+
+\vspace{-2.5mm}
+
+
+\section{Technical Skills}
+\vspace{0.2mm}
+
+\small{\begin{tabular*}{\textwidth}[t]{p{0.5\textwidth} p{0.5\textwidth}}
+
+\hspace{-3.1mm}{\textbf{ Programming languages:} C++, C, Python, JavaScript} & {\textbf{Web Technologies:} HTML, CSS, ReactJS, NextJS} \\  
+\hspace{-3.1mm}{\textbf{Familiar with :} Django, PostgreSQL} & {\textbf{Miscellaneous:} MySQL, Git/GitHub}
+\end{tabular*}}
+
+\vspace{-2.5mm}
+\section{Certification}
+\vspace{0.2mm}
+
+
+\small{\begin{tabular*}{\textwidth}[t]{p{\textwidth}}
+\hspace{-3.1mm}\textbf{ DP900: }{Microsoft Azure Data Fundamentals}\\
+\hspace{-3.1mm}\textbf{ LFS169: }{Introduction to GitOps}
+\end{tabular*}}
+
+
+
+%-------------------------------------------
+\end{document}
+
