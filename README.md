@@ -23,5 +23,6 @@ Here are some good resume templates <br>
 7. [Gyanadipta Mohanty](https://drive.google.com/file/d/1k9aekQnioJdnuoRxCoFfl25frUXbhMwD/view?usp=sharing)
 8. [Kumar Rahul](https://drive.google.com/file/d/1Ddlyvd_AbMQkbRDPMwZIkFdrwQsCJ9u5/view?usp=sharing)
 9. [Vishwajeet](https://drive.google.com/file/d/1Km6lZ3M1Pc3PQLBBD-axiOH1U-uaarAn/view?usp=sharing)
+10. [Mark Livingston](https://drive.google.com/file/d/1f7A-JY0QYF_rdr1PjQ0RggOYUs4xPRgF/view?usp=sharing)
 
 Note- Do not use anyone's contact number from the resume templates.
