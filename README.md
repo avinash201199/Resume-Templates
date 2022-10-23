@@ -24,5 +24,7 @@ Here are some good resume templates <br>
 8. [Kumar Rahul](https://drive.google.com/file/d/1Ddlyvd_AbMQkbRDPMwZIkFdrwQsCJ9u5/view?usp=sharing)
 9. [Vishwajeet](https://drive.google.com/file/d/1Km6lZ3M1Pc3PQLBBD-axiOH1U-uaarAn/view?usp=sharing)
 10. [Mark Livingston](https://drive.google.com/file/d/1f7A-JY0QYF_rdr1PjQ0RggOYUs4xPRgF/view?usp=sharing)
+11. [Floral Resume](https://drive.google.com/file/d/1KkEpqZ2JmWA8VmjhcKkIvyi-OzKFFl1j/view?usp=sharing)
+12. [Esther](https://drive.google.com/file/d/11ejCr-9mj-F0NTr1UA7XtVyoa2aTXzmt/view?usp=sharing)
 
 Note- Do not use anyone's contact number from the resume templates.
