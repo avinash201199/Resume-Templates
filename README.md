@@ -12,9 +12,9 @@ A great resume:
 
 Check [Contributing.md](https://github.com/avinash201199/Resume-Templates/blob/main/CONTRIBUTING.md) file to contribute.
 
-[Resume templates](https://github.com/avinash201199/Resume-Templates/tree/main/Resume%20folder)
+[Resume templates pdf's](https://github.com/avinash201199/Resume-Templates/tree/main/Resume%20folder)
 
-Here are some good resume templates <br>
+Here are some good resume templates drive link <br>
 
 1. [Avinash Singh](https://drive.google.com/file/d/1i6VqeJlpyN4nDZCsO4gNhm1M6DUMcRjL/view?usp=sharing)
 2. [Komal Kumari](https://drive.google.com/file/d/1Krzx0oEX9EOQ65l8UuCYvsD3Bub91ZUn/view?usp=sharing)
